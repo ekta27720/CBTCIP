@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- CSS File-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">My Portfolio</h1>
+        <ul class="nav-links-container">
+            <li class="nav-link"><a href="#home-section" class="links active">Home</a></li>
+            <li class="nav-link"><a href="#about-section" class="links ">About</a></li>
+            <li class="nav-link"><a href="#education-section" class="links">Education</a></li>
+            <li class="nav-link"><a href="#skills-section" class="links">Skills</a></li>
+            <li class="nav-link"><a href="#contact-section" class="links">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Header-->
+    <header class="header" id="home-section">
+        <div class="content">
+            <h1 class="header-heading">Hey!, I'm <span class="brand-name">Ekta<span> Ade </span> </span></h1>
+            <p class="header-description">I'm a web developer, I love to explore new things, and I'm passionate about
+                web designing.</p>
+            <a href="#" class="btn">Hire</a>
+        </div>
+
+        <div>
+            <img src="img/blob.svg" alt="" class="blob">
+            <img src="img/profile.png" alt="" class="myimg">
+        </div>
+    </header>
+
+    <!--About section-->
+    <section id="about-section">
+        <h1 class="heading"> About Me</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <div class="sqaure"></div>
+                <img src="img/profile.png" class="about-img" alt="">
+                <div class="social-links">
+                    <a href="#"><img src="img/insta.png" class="social-media" alt=""></a>
+                    <a href="#"><img src="img/linked.png" class="social-media" alt=""></a>
+                    <a href="#"><img src="img/github.png" class="social-media" alt=""></a>
+                    <a href="#"><img src="img/fb.png" class="social-media" alt=""></a>
+                    <a href="#"><img src="img/twitter.png" class="social-media" alt=""></a>
+                </div>
+            </div>
+
+            <!--Info Part-->
+            <div class="info">
+                <p>I am a Computer Science student pursuing B.Tech from Sage University,Indore.
+                    I have good knowledge of programming languages such as C++, HTML, CSS and JavaScript.
+                    I have experience of working on databases using SQL, which has given me a huge understanding of database
+                    management.
+                    Additionally, I am also skilled in Microsoft Excel. I am always eager to learn new skills and
+                    technologies and stay up-to-date with the latest developments in the field of Computer Science.
+                    I am excited to continue expanding my knowledge and skills in computer science and apply them to
+                    real-world problems.</p>
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Skiils Part-->
+    <section id="skills-section">
+        <h1 class="heading">Skiils</h1>
+        <div class="skills">
+            <p class="skill-name">HTML</p>
+            <p class="skill-name">CSS</p>
+            <p class="skill-name">JavaScript</p>
+            <p class="skill-name">Frontend Developer</p>
+            <p class="skill-name">C++</p>
+            <p class="skill-name">Data Structure & Algorithms</p>
+            <p class="skill-name">SQL</p>
+            <p class="skill-name">Computer Network</p>
+            <p class="skill-name">Operating System</p>
+            <p class="skill-name">Microsoft Office</p>
+            <p class="skill-name">Git - Github</p>
+            <p class="skill-name">Problem Solving</p>
+            <p class="skill-name">Collaborative</p>
+            <p class="skill-name">Team Work</p>
+            <p class="skill-name">More</p>
+        </div>
+    </section>
+
+    <!--Education-->
+    <section id="education-section">
+        <h1 class="heading"> Education</h1>
+        <div class="timeline-container">
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2017-2018</h1>
+                    <p class="card-body">Passed My 10th from govt. High School, Ghunadi district Balaghat  with 93% of marks.</p>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2020-2021</h1>
+                    <p class="card-body">Passed My 12th from govt. Excellence School Balaghat with 93% in Physics,
+                        Chemistry & Mathematics.</p>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2021-2025</h1>
+                    <p class="card-body">Started My College Journey in Sage University Indore Pursuing B.Tech as a
+                        Computer Science & Engineering Student.</p>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">Workshop</h1>
+                    <p class="card-body">I have attend workshop of Cisco Packet Tracer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact-section">
+        <h1 class="heading">Contact</h1>
+        <div class="form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Mail">
+            <input type="text" placeholder="Subject">
+            <textarea placeholder="message"></textarea>
+            <button class="contact-btn">Contact</button>
+        </div>
+    </section>
+
+</body>
+</html>
